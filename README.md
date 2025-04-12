@@ -1,4 +1,4 @@
-> following submission instructions [here](https://encodeclub.notion.site/Hackathon-Submissions-1ae6c123e77d815c8f1cc600cc14efd5
+> following submission instructions [here](https://encodeclub.notion.site/Hackathon-Submissions-1ae6c123e77d815c8f1cc600cc14efd5)
 
 # RevMart
 **Event**: [Encode AI London 2025](https://lu.ma/AI-London-2025)
