@@ -18,6 +18,7 @@ import {
 import { useToast } from "@/components/ui/use-toast"
 import { useWalletContext } from "@/components/wallet-context-provider"
 import { storeReview } from "@/lib/redis"
+import { submitReviewTransaction } from "@/lib/reviewTransaction"
 
 type ReviewMetrics = {
   wifiSpeed: number | null
@@ -66,6 +67,8 @@ export default function ReviewPage({ params }: { params: { id: string } }) {
     setSubmitting(true)
 
     try {
+      // Create a thing
+      submitReviewTransaction(0.005);
       // Store the review in Redis
       const id = await storeReview(spaceId, {
         wifiSpeed: metrics.wifiSpeed,
