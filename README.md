@@ -2,7 +2,9 @@
 
 # RevMart
 **Event**: [Encode AI London 2025](https://lu.ma/AI-London-2025)
+
 **Bounty**: [Superteam UK](https://bento.me/superteamuk): Build an AI x blockchain solution
+
 **Authors**: [Polina _last name_](https://github.com/L1N-z), [Amirreza Ghasemi](), [Farzaan Shaikh](), [Loic Peron](https://github.com/PeronLo)
 
 > insert project description
