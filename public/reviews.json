@@ -1,0 +1,120 @@
+{
+  "workspaces": [
+    {
+      "name": "The Coding Hub",
+      "reviews": [
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "silent",
+          "business": 9
+        },
+        {
+          "wifi": "average",
+          "plugs": "yes",
+          "noise": "normal",
+          "business": 7
+        },
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "normal",
+          "business": 8
+        },
+        {
+          "wifi": "high",
+          "plugs": "no",
+          "noise": "noisy",
+          "business": 6
+        }
+      ]
+    },
+    {
+      "name": "Urban Office",
+      "reviews": [
+        {
+          "wifi": "slow",
+          "plugs": "no",
+          "noise": "noisy",
+          "business": 4
+        },
+        {
+          "wifi": "average",
+          "plugs": "yes",
+          "noise": "normal",
+          "business": 6
+        },
+        {
+          "wifi": "slow",
+          "plugs": "no",
+          "noise": "noisy",
+          "business": 5
+        },
+        {
+          "wifi": "average",
+          "plugs": "yes",
+          "noise": "normal",
+          "business": 7
+        }
+      ]
+    },
+    {
+      "name": "Silent Space",
+      "reviews": [
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "silent",
+          "business": 10
+        },
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "silent",
+          "business": 9
+        },
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "silent",
+          "business": 9
+        },
+        {
+          "wifi": "high",
+          "plugs": "yes",
+          "noise": "silent",
+          "business": 10
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Work",
+      "reviews": [
+        {
+          "wifi": "average",
+          "plugs": "yes",
+          "noise": "noisy",
+          "business": 5
+        },
+        {
+          "wifi": "slow",
+          "plugs": "no",
+          "noise": "noisy",
+          "business": 3
+        },
+        {
+          "wifi": "slow",
+          "plugs": "no",
+          "noise": "noisy",
+          "business": 4
+        },
+        {
+          "wifi": "average",
+          "plugs": "yes",
+          "noise": "normal",
+          "business": 6
+        }
+      ]
+    }
+  ]
+}
