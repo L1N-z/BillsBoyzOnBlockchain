@@ -5,7 +5,8 @@ export function useWorkspaceRecommendation() {
   const [recommendation, setRecommendation] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchRecommendation = async (userIntention: string) => {
+  const fetchRecommendation = async (userIntention: string, hard_requirements: any) => {
+    console.log("Fetching recommendation with intention:", userIntention, "and requirements:", hard_requirements);
     setLoading(true);
     setError(null);
     setRecommendation(null);
@@ -14,7 +15,7 @@ export function useWorkspaceRecommendation() {
       const res = await fetch('/api/recommendation', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ userIntention }),
+        body: JSON.stringify({ userIntention, hard_requirements }),
       });
 
       const data = await res.json();
