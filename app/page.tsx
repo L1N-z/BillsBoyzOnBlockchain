@@ -2,15 +2,23 @@ import { Header } from "@/components/header"
 import { CoworkingSpaceCard } from "@/components/coworking-space-card"
 import { PopularSpaces } from "@/components/popular-spaces"
 import { coworkingSpaces } from "@/lib/coworking-data"
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { SuggestionSheet } from "@/components/suggestion-sheet"
+
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 container py-8">
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold tracking-tight">Coworking Spaces</h2>
-          <p className="text-muted-foreground mt-2">Select a coworking space to view details or submit a review</p>
+        <div className="mb-8 flex w-full">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight">Coworking Spaces</h2>
+            <p className="text-muted-foreground mt-2">Select a coworking space to view details or submit a review</p>
+          </div>
+          <div className="ml-auto">
+          <SuggestionSheet />
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -22,9 +30,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:col-span-1">
+          {/* <div className="lg:col-span-1">
             <PopularSpaces />
-          </div>
+          </div> */}
         </div>
       </main>
     </div>
